@@ -1,0 +1,7 @@
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\StatisticsTest\bin\Debug\StatisticsTest.dll
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\StatisticsTest\bin\Debug\StatisticsTest.pdb
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\StatisticsTest\bin\Debug\Statistics.dll
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\StatisticsTest\bin\Debug\Statistics.pdb
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\StatisticsTest\obj\Debug\StatisticsTest.csprojResolveAssemblyReference.cache
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\StatisticsTest\obj\Debug\StatisticsTest.dll
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\StatisticsTest\obj\Debug\StatisticsTest.pdb

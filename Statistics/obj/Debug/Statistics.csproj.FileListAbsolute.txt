@@ -1,0 +1,4 @@
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\Statistics\bin\Debug\Statistics.dll
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\Statistics\bin\Debug\Statistics.pdb
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\Statistics\obj\Debug\Statistics.dll
+C:\Users\Andriy Shyrokoryadov\Source\Workspaces\Statistics\version-2.0.0.0\Statistics\obj\Debug\Statistics.pdb

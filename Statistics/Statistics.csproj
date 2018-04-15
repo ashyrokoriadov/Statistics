@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{570008C2-C73E-47D1-94B6-27854C360923}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Statistics</RootNamespace>
+    <AssemblyName>Statistics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalculationArithmeticMean.cs" />
+    <Compile Include="CalculationCorrelation.cs" />
+    <Compile Include="CalculationStudentTDistributionBase.cs" />
+    <Compile Include="CalculationNormalDistributionBase.cs" />
+    <Compile Include="CalculationBinominalDistributionBase.cs" />
+    <Compile Include="CalculationDistribution.cs" />
+    <Compile Include="CalculationStandardDeviationBase.cs" />
+    <Compile Include="CalculationBase.cs" />
+    <Compile Include="Implementations\Correlation.cs" />
+    <Compile Include="Implementations\Correlation\CorrelationDecimal.cs" />
+    <Compile Include="Implementations\Correlation\CorrelationFloat.cs" />
+    <Compile Include="Implementations\Correlation\CorrelationDouble.cs" />
+    <Compile Include="Implementations\StudentTDistribution.cs" />
+    <Compile Include="Implementations\NormalDistribution.cs" />
+    <Compile Include="Implementations\BinominalDistribution\BinominalDistributionFloat.cs" />
+    <Compile Include="Implementations\BinominalDistribution\BinominalDistributionDouble.cs" />
+    <Compile Include="Implementations\Mean\ArithmeticMeanDecimal.cs" />
+    <Compile Include="Implementations\Mean\ArithmeticMeanDouble.cs" />
+    <Compile Include="Implementations\ArithmeticMean.cs" />
+    <Compile Include="Implementations\Mean\ArithmeticMeanFloat.cs" />
+    <Compile Include="Implementations\Mean\ArithmeticMeanInt.cs" />
+    <Compile Include="Implementations\NormalDistribution\NormalDistributionDecimal.cs" />
+    <Compile Include="Implementations\NormalDistribution\NormalDistributionFloat.cs" />
+    <Compile Include="Implementations\NormalDistribution\NormalDistributionDouble.cs" />
+    <Compile Include="Implementations\Percentile.cs" />
+    <Compile Include="Implementations\BinominalDistribution.cs" />
+    <Compile Include="Implementations\BinominalDistribution\BinominalDistributionDecimal.cs" />
+    <Compile Include="Implementations\StandardDeviation\StandardDeviationFloat.cs" />
+    <Compile Include="Implementations\StandardDeviation\StandardDeviationDecimal.cs" />
+    <Compile Include="Implementations\StandardDeviation\StandardDeviationInt.cs" />
+    <Compile Include="Implementations\StandardDeviation\StandardDeviationDouble.cs" />
+    <Compile Include="Implementations\Percentile\PercentileFloat.cs" />
+    <Compile Include="Implementations\Percentile\PercentileInt.cs" />
+    <Compile Include="Implementations\Percentile\PercentileDouble.cs" />
+    <Compile Include="Implementations\Percentile\PercentileDecimal.cs" />
+    <Compile Include="Implementations\StandardDeviation.cs" />
+    <Compile Include="Implementations\StudentTDistribution\StudentTDistributionDecimal.cs" />
+    <Compile Include="Implementations\StudentTDistribution\StudentTDistributionDouble.cs" />
+    <Compile Include="Implementations\StudentTDistribution\StudentTDistributionFloat.cs" />
+    <Compile Include="IntegralCalculus\SimpsonMethod.cs" />
+    <Compile Include="Interfaces\IGetResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatisticsBase.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
